@@ -16,7 +16,7 @@
 
 [v0.5.2の導入・画面・再起動・原本確認](docs/portfolio/handoff-v052.md) · [同版の実測集計](docs/portfolio/handoff-v052-metrics.json)
 
-[公開版の導入・安全性確認](docs/portfolio/public-release-check.md) · [v0.5.2の評価集計](docs/portfolio/public-release-metrics.json) · [クラウドワークスの作品紹介](https://crowdworks.jp/public/employees/7061082/resumes/1286381)
+[公開版の導入・安全性確認](docs/portfolio/public-release-check.md) · [v0.5.2の評価集計](docs/portfolio/public-release-metrics.json) · [クラウドワークスの作品紹介](https://crowdworks.jp/public/employees/7061082/resumes/1286469)
 
 ## 何を解決するか
 
