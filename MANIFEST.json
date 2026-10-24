@@ -36,8 +36,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 16372,
-    "sha256": "ad739778d74e84bf2910762245de1d9909e21691affe72266b9c1ebf06f84ce5"
+    "bytes": 16288,
+    "sha256": "4408a38fd3fc575c5ff727687dcf360d80d53e880a022b098fbf259634f0d994"
   },
   {
     "path": "benchmarks/blind.json",
@@ -166,8 +166,8 @@
   },
   {
     "path": "docs/portfolio/public-release-check.md",
-    "bytes": 4612,
-    "sha256": "0f29c7d13dce8100f899bde71d4f93865c467d8a503c0f6b283290627d7bdf0a"
+    "bytes": 5931,
+    "sha256": "cead739e7660c8dff9b1bd32c8bbd5051010cf57935ba07a397db26de248ecde"
   },
   {
     "path": "docs/portfolio/public-release-metrics.json",
