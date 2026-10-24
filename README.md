@@ -1,5 +1,7 @@
 # Panel Evidence — 電気・製造業向け 技術文書検索
 
+[![単体・画面テスト](https://github.com/213d0984-a11y/panel-evidence-portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/213d0984-a11y/panel-evidence-portfolio/actions/workflows/tests.yml)
+
 仕様書・取扱説明書・カタログを登録し、型式や仕様を自然言語で調べるローカルアプリです。資料名・PDFページ番号・原文・原本を確認でき、十分な根拠が見つからない質問は「登録資料からは確認できない」と返します。
 
 **ポートフォリオ版 v0.5.2**。小規模な資料検索・根拠確認を支援します。型式省略や複雑な表・適用条件の解釈には制約があり、設計判断を代行する製品ではありません。
@@ -8,7 +10,7 @@
 
 ![根拠を表示する実画面](docs/portfolio/02-evidence.png)
 
-[営業用デモ（60秒・説明テロップ付きMP4）](docs/portfolio/demo_crowdworks_v052.mp4) · [開発目的と実務例](docs/portfolio/case-study.md) · [実測評価と限界](docs/portfolio/validation.md) · [構成図](docs/architecture.md)
+[営業用デモ（60秒・説明テロップ付きMP4をダウンロード）](https://github.com/213d0984-a11y/panel-evidence-portfolio/raw/refs/heads/main/docs/portfolio/demo_crowdworks_v052.mp4) · [開発目的と実務例](docs/portfolio/case-study.md) · [実測評価と限界](docs/portfolio/validation.md) · [構成図](docs/architecture.md)
 
 デモはAPI不要の標準抜粋モードで、登録済みの自作資料・仕様検索・資料名／物理ページ／原文・根拠不足時の回答拒否を紹介します。PDFアップロード操作は映っていません。画面の「固定28問で回答可否27/28」は回答本文の完全正答率ではありません。[編集・検証レポート](docs/portfolio/video_edit/editing-report.md) · [再編集・再生成手順](docs/portfolio/video_edit/README.md) · [収録原本（85秒）](docs/portfolio/demo.webm)。
 

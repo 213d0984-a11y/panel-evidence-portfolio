@@ -38,7 +38,7 @@
 
 新規環境の主要依存はStreamlit 1.66.1、Qdrant client 1.20.0、Sentence Transformers 5.7.0、PyMuPDF 1.28.2、Torch 2.14.1です。固定28問の性能値は2026-10-24の固定環境での測定で、今回の新規依存環境でメーカー28問を再測定した数値としては扱いません。
 
-CIは標準Ubuntuランナー・CPU版Torch・読み取り専用のリポジトリ権限を使用し、モデル取得と外部APIを不要にしたテストを実行します。ホストCIの結果はGitHubのActions画面で確認でき、ローカル成功から推定しません。
+CIは標準Ubuntu 24.04ランナー・CPU版Torch・読み取り専用のリポジトリ権限を使用し、モデル取得と外部APIを不要にしたテストを実行します。checkout／setup-pythonは公式のv7を使用し、checkout後の認証情報の保存は無効にしています。ホストCIの結果はREADMEのバッジとGitHubのActions画面で確認でき、ローカル成功から推定しません。
 
 固定28問は[評価集計](public-release-metrics.json)、質問と公式取得元は`benchmarks/fixed28.json`を参照してください。既存質問・正解・過去結果は変更していません。公開準備はRAGの改善評価ではないため、新しい未知資料の初回検証結果として数えません。
 

@@ -11,8 +11,8 @@
   },
   {
     "path": ".github/workflows/tests.yml",
-    "bytes": 629,
-    "sha256": "c4ed3b837dd6571bf6c3ebae7d752b475026986c294ae25a41198dec1b894f43"
+    "bytes": 679,
+    "sha256": "08edaef9bddb3ca2c2d8186017cc1627c6f5d7612ae46938405fc3b2e360bbb1"
   },
   {
     "path": ".gitignore",
@@ -36,8 +36,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 16288,
-    "sha256": "4408a38fd3fc575c5ff727687dcf360d80d53e880a022b098fbf259634f0d994"
+    "bytes": 16602,
+    "sha256": "837ffd659c54c3f9db9eeebcaccdbab85ccf339fbc5029594d6c50104e75bcd2"
   },
   {
     "path": "benchmarks/blind.json",
@@ -166,8 +166,8 @@
   },
   {
     "path": "docs/portfolio/public-release-check.md",
-    "bytes": 5931,
-    "sha256": "cead739e7660c8dff9b1bd32c8bbd5051010cf57935ba07a397db26de248ecde"
+    "bytes": 6075,
+    "sha256": "f911f58d6bb5db0086f8dc378f496712027dead620c6a4bb7598fe13ffe6325b"
   },
   {
     "path": "docs/portfolio/public-release-metrics.json",
