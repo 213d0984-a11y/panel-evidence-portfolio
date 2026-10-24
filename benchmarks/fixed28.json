@@ -1,0 +1,606 @@
+{
+  "original_dataset_sha256": "1ec4e1557b413ede75d9edfb56e7780f72eb5ef51f2140836518fec14d3e8518",
+  "note": "Authored questions and factual references; manufacturer text and PDFs excluded. Physical PDF page numbers.",
+  "sources": [
+    {
+      "file_name": "mitsubishi_breaker_mmp_t32.pdf",
+      "manufacturer": "三菱電機",
+      "category": "ブレーカ",
+      "source_url": "https://dl.mitsubishielectric.co.jp/dl/fa/document/catalog/lvsw/02032eng/L%28NA%2902032ENG-B.pdf",
+      "pages": 16,
+      "sha256": "34fe46d7d3f1ad93909b641594de352f627d3821706d8c24855accae4f6234fd"
+    },
+    {
+      "file_name": "mitsubishi_inverter_fr_d800.pdf",
+      "manufacturer": "三菱電機",
+      "category": "インバータ",
+      "source_url": "https://dl.mitsubishielectric.co.jp/dl/fa/document/catalog/inv/l-06152/l06152d.pdf",
+      "pages": 117,
+      "sha256": "3f210db7552913326bbd7e0403a7da3fac05f74978fa980ba1460fa4d4301b41"
+    },
+    {
+      "file_name": "omron_relay_my_series.pdf",
+      "manufacturer": "オムロン",
+      "category": "リレー",
+      "source_url": "https://files.omron.eu/downloads/latest/datasheet/en/j268_my-gs-r_my%28s%29_myk_myq_myh_miniature_power_relays_datasheet_en.pdf?v=2",
+      "pages": 62,
+      "sha256": "b5904e058a2da694e5ba2697b349cbca306b25cdea61f672387095493a2140a6"
+    },
+    {
+      "file_name": "omron_power_supply_s8vk_g.pdf",
+      "manufacturer": "オムロン",
+      "category": "DC24V電源・スイッチング電源",
+      "source_url": "https://files.omron.eu/downloads/latest/datasheet/en/t056_s8vk-g_switch_mode_power_supply_datasheet_en.pdf?v=6",
+      "pages": 28,
+      "sha256": "db21a611c30e79f7aa4c059518bdf38e0a21af1402ec56590b87d0589c48307d"
+    },
+    {
+      "file_name": "omron_sensor_e3z_ul.pdf",
+      "manufacturer": "オムロン",
+      "category": "センサ",
+      "source_url": "https://files.omron.eu/downloads/latest/datasheet/en/e3z-_-ul_compact_photoelectric_sensor_with_built-in_amplifier_datasheet_en.pdf?v=2",
+      "pages": 39,
+      "sha256": "d8ea3bbd569434f41dc716cf359c2e22905fdbf26f4a788754e530d55a48cc49"
+    },
+    {
+      "file_name": "idec_relay_rj_datasheet.pdf",
+      "manufacturer": "IDEC",
+      "category": "リレー",
+      "source_url": "https://www.idec.com/en-us/industrial-components/relays-timers/relays/rj-slim-general-purpose-relay/rj2s-c-a24",
+      "pages": 4,
+      "sha256": "d5127828cf591654fcc4ff39648a78decb278e9ee4c861acff4847eb5db2477d"
+    },
+    {
+      "file_name": "idec_power_supply_ps5r_v.pdf",
+      "manufacturer": "IDEC",
+      "category": "DC24V電源・スイッチング電源",
+      "source_url": "https://www.idec.com/en-us/industrial-components/power-supplies/metalframe-ps/ps5r-v-compact-series/ps5r-vb12",
+      "pages": 8,
+      "sha256": "dd1221751965b13f7292daee19cef8587bc4d56793963d6aaaee80ec0a68faa6"
+    },
+    {
+      "file_name": "idec_cabinet_fb_enclosure.pdf",
+      "manufacturer": "IDEC",
+      "category": "盤・キャビネット",
+      "source_url": "https://www.idec.com/en-us/switches-indicator-lights/switches-pushbuttons/pushbuttons-pilot-lights/hw-22mm-heavy-duty/FB1W-HW1B-V411R",
+      "pages": 2,
+      "sha256": "9d270e8c3bd8ea2f594b4d21ba0b31a9ee09e7f66dc5b84eb042f04b1253e1b5"
+    },
+    {
+      "file_name": "idec_terminal_bn_bnh.pdf",
+      "manufacturer": "IDEC",
+      "category": "端子台",
+      "source_url": "https://www.idec.com/en-us/industrial-components/connection-devices/terminal-blocks/bn-series/bn40w",
+      "pages": 27,
+      "sha256": "7262f5098781f578b60a4eb18bbadff861d07a9912c4424ed4d44761a17f09fd"
+    },
+    {
+      "file_name": "panasonic_sensor_rx_ls200.pdf",
+      "manufacturer": "Panasonic Industry",
+      "category": "センサ",
+      "source_url": "https://industry.panasonic.com/ac/download/fasys/sensor/photoelectric/catalog/rx-ls200_j_cata.pdf?via=ok",
+      "pages": 6,
+      "sha256": "22ad52e445b556345ddc4858404b90e38bc34388f826c36267b8d923db1ddd27"
+    },
+    {
+      "file_name": "yaskawa_inverter_ga500.pdf",
+      "manufacturer": "安川電機",
+      "category": "インバータ",
+      "source_url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=DT.GA500.01&documentName=DT.GA500.01.pdf",
+      "pages": 2,
+      "sha256": "63c72aa5693985c2838112688eeeeedefd7c03b1c3e93694fa86372066575bc7"
+    },
+    {
+      "file_name": "patlite_indicator_lr7_buzzer.pdf",
+      "manufacturer": "PATLITE",
+      "category": "押しボタン・表示灯",
+      "source_url": "https://shop.patlite.com/v/vspfiles/downloadables/LR_Specifications_Buzzer%20Unit%20%28En%29.pdf",
+      "pages": 3,
+      "sha256": "22ad59fabcbf8884837eacb9995a2e687e7cf50b7b8392eab84e09b403835c17"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "A-01",
+      "category": "A",
+      "question": "MMP-T32の盤外での使用周囲温度範囲と、盤内最高温度は何℃ですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "mitsubishi_breaker_mmp_t32.pdf"
+      ],
+      "expected_page": {
+        "mitsubishi_breaker_mmp_t32.pdf": [
+          9
+        ]
+      },
+      "expected_key_facts": [
+        "-10°C～40°C",
+        "55°C"
+      ]
+    },
+    {
+      "question_id": "A-02",
+      "category": "A",
+      "question": "FR-D820シリーズの保護構造は何ですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "mitsubishi_inverter_fr_d800.pdf"
+      ],
+      "expected_page": {
+        "mitsubishi_inverter_fr_d800.pdf": [
+          38
+        ]
+      },
+      "expected_key_facts": [
+        "開放型",
+        "IP20",
+        "IEC 60529"
+      ]
+    },
+    {
+      "question_id": "A-03",
+      "category": "A",
+      "question": "MY-GS-Rの標準形とLED動作表示灯内蔵形の使用周囲温度範囲をそれぞれ教えてください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "omron_relay_my_series.pdf"
+      ],
+      "expected_page": {
+        "omron_relay_my_series.pdf": [
+          8
+        ]
+      },
+      "expected_key_facts": [
+        "標準形 -55～70°C",
+        "LED動作表示灯内蔵形 -40～70°C"
+      ]
+    },
+    {
+      "question_id": "A-04",
+      "category": "A",
+      "question": "S8VK-Gシリーズの60W品と120W品の保護構造は何ですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "omron_power_supply_s8vk_g.pdf"
+      ],
+      "expected_page": {
+        "omron_power_supply_s8vk_g.pdf": [
+          4
+        ]
+      },
+      "expected_key_facts": [
+        "IP20",
+        "EN/IEC 60529"
+      ]
+    },
+    {
+      "question_id": "A-05",
+      "category": "A",
+      "question": "E3Z-□-UL標準形の電源電圧と許容リップルは何ですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "omron_sensor_e3z_ul.pdf"
+      ],
+      "expected_page": {
+        "omron_sensor_e3z_ul.pdf": [
+          8
+        ]
+      },
+      "expected_key_facts": [
+        "12～24VDC ±10%",
+        "リップル10%以下",
+        "Class 2"
+      ]
+    },
+    {
+      "question_id": "A-06",
+      "category": "A",
+      "question": "IDEC RJシリーズリレーの使用周囲温度と使用周囲湿度は何ですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "idec_relay_rj_datasheet.pdf"
+      ],
+      "expected_page": {
+        "idec_relay_rj_datasheet.pdf": [
+          1
+        ]
+      },
+      "expected_key_facts": [
+        "-40～70°C",
+        "5～85%RH"
+      ]
+    },
+    {
+      "question_id": "A-07",
+      "category": "A",
+      "question": "IDEC FBエンクロージャの使用周囲温度と相対湿度の範囲は何ですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "idec_cabinet_fb_enclosure.pdf"
+      ],
+      "expected_page": {
+        "idec_cabinet_fb_enclosure.pdf": [
+          1
+        ]
+      },
+      "expected_key_facts": [
+        "-25～60°C",
+        "45～85%RH"
+      ]
+    },
+    {
+      "question_id": "A-08",
+      "category": "A",
+      "question": "PATLITE LR7ブザーユニットの動作電圧と使用周囲温度は何ですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "patlite_indicator_lr7_buzzer.pdf"
+      ],
+      "expected_page": {
+        "patlite_indicator_lr7_buzzer.pdf": [
+          1
+        ]
+      },
+      "expected_key_facts": [
+        "24V DC",
+        "-20～50°C"
+      ]
+    },
+    {
+      "question_id": "B-01",
+      "category": "B",
+      "question": "S8VK-G06024の出力電圧、定格出力電流、ブースト電流を教えてください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "omron_power_supply_s8vk_g.pdf"
+      ],
+      "expected_page": {
+        "omron_power_supply_s8vk_g.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "24V",
+        "2.5A",
+        "3A"
+      ]
+    },
+    {
+      "question_id": "B-02",
+      "category": "B",
+      "question": "PS5R-VB24の出力容量、出力電圧、出力電流は何ですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "idec_power_supply_ps5r_v.pdf"
+      ],
+      "expected_page": {
+        "idec_power_supply_ps5r_v.pdf": [
+          1,
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "15W",
+        "24V",
+        "0.65A"
+      ]
+    },
+    {
+      "question_id": "B-03",
+      "category": "B",
+      "question": "RX-LS200とRX-LS200-Pの出力方式の違いは何ですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "panasonic_sensor_rx_ls200.pdf"
+      ],
+      "expected_page": {
+        "panasonic_sensor_rx_ls200.pdf": [
+          3
+        ]
+      },
+      "expected_key_facts": [
+        "RX-LS200はNPNトランジスタ・オープンコレクタ",
+        "RX-LS200-PはPNPトランジスタ・オープンコレクタ"
+      ]
+    },
+    {
+      "question_id": "B-04",
+      "category": "B",
+      "question": "GA500のGA50U B004ABAとGA50U 2004ABAについて、ND出力電流、HD出力電流、フレーム番号をそれぞれ教えてください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "yaskawa_inverter_ga500.pdf"
+      ],
+      "expected_page": {
+        "yaskawa_inverter_ga500.pdf": [
+          1
+        ]
+      },
+      "expected_key_facts": [
+        "B004ABAは3.5A、3A、フレーム1.3",
+        "2004ABAは3.5A、3A、フレーム1.2"
+      ]
+    },
+    {
+      "question_id": "B-05",
+      "category": "B",
+      "question": "BN10WとBN30WのUL/CSA定格、適合電線サイズ、端子ねじ、締付トルクを比較してください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "idec_terminal_bn_bnh.pdf"
+      ],
+      "expected_page": {
+        "idec_terminal_bn_bnh.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "BN10Wは600V/15A、AWG22-16、M3、0.6～1.0N·m",
+        "BN30Wは600V/35A、AWG18-10、M4、1.4～2.0N·m"
+      ]
+    },
+    {
+      "question_id": "C-01",
+      "category": "C",
+      "question": "S8VK-G06024とPS5R-VB24の出力容量、出力電圧、定格出力電流を比較してください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "omron_power_supply_s8vk_g.pdf",
+        "idec_power_supply_ps5r_v.pdf"
+      ],
+      "expected_page": {
+        "omron_power_supply_s8vk_g.pdf": [
+          2
+        ],
+        "idec_power_supply_ps5r_v.pdf": [
+          1,
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "S8VK-G06024は60W、24V、2.5A",
+        "PS5R-VB24は15W、24V、0.65A"
+      ]
+    },
+    {
+      "question_id": "C-02",
+      "category": "C",
+      "question": "E3Z-□-UL標準形とRX-LS200の電源電圧、保護構造、使用周囲温度を比較してください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "omron_sensor_e3z_ul.pdf",
+        "panasonic_sensor_rx_ls200.pdf"
+      ],
+      "expected_page": {
+        "omron_sensor_e3z_ul.pdf": [
+          8
+        ],
+        "panasonic_sensor_rx_ls200.pdf": [
+          3
+        ]
+      },
+      "expected_key_facts": [
+        "どちらも12～24VDC ±10%",
+        "どちらもIP67",
+        "E3Zは-25～55°C",
+        "RX-LS200は-25～60°C"
+      ]
+    },
+    {
+      "question_id": "C-03",
+      "category": "C",
+      "question": "FREQROL-D800のND・SLD定格とGA500のND・HD定格について、過負荷耐量を比較してください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "mitsubishi_inverter_fr_d800.pdf",
+        "yaskawa_inverter_ga500.pdf"
+      ],
+      "expected_page": {
+        "mitsubishi_inverter_fr_d800.pdf": [
+          38,
+          39
+        ],
+        "yaskawa_inverter_ga500.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "D800 NDは150% 60秒、200% 0.5秒",
+        "D800 SLDは110% 60秒、120% 3秒",
+        "GA500 NDは110% 1分",
+        "GA500 HDは150% 1分"
+      ]
+    },
+    {
+      "question_id": "C-04",
+      "category": "C",
+      "question": "MY-GS-Rの2極形とIDEC RJ2Sについて、抵抗負荷時の接点定格を比較してください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "omron_relay_my_series.pdf",
+        "idec_relay_rj_datasheet.pdf"
+      ],
+      "expected_page": {
+        "omron_relay_my_series.pdf": [
+          7
+        ],
+        "idec_relay_rj_datasheet.pdf": [
+          1,
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "MY-GS-R 2極形は10A at 250VAC、10A at 30VDC",
+        "RJ2Sは8A"
+      ]
+    },
+    {
+      "question_id": "C-05",
+      "category": "C",
+      "question": "MMP-T32とIDEC FBエンクロージャの使用周囲温度および相対湿度の範囲を比較してください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "mitsubishi_breaker_mmp_t32.pdf",
+        "idec_cabinet_fb_enclosure.pdf"
+      ],
+      "expected_page": {
+        "mitsubishi_breaker_mmp_t32.pdf": [
+          9
+        ],
+        "idec_cabinet_fb_enclosure.pdf": [
+          1
+        ]
+      },
+      "expected_key_facts": [
+        "MMP-T32は-10～40°C、45～85%RH",
+        "FBエンクロージャは-25～60°C、45～85%RH"
+      ]
+    },
+    {
+      "question_id": "C-06",
+      "category": "C",
+      "question": "S8VK-G06024とPS5R-VB24について、入力電圧範囲、使用周囲温度、保護構造を比較してください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "omron_power_supply_s8vk_g.pdf",
+        "idec_power_supply_ps5r_v.pdf"
+      ],
+      "expected_page": {
+        "omron_power_supply_s8vk_g.pdf": [
+          3,
+          4
+        ],
+        "idec_power_supply_ps5r_v.pdf": [
+          1,
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "S8VK-G06024は85～264VAC、90～350VDC、-40～70°C、IP20",
+        "PS5R-VB24は85～264VAC、100～370VDC、-25～70°C、IP20"
+      ]
+    },
+    {
+      "question_id": "D-01",
+      "category": "D",
+      "question": "FR-D840シリーズの定格入力交流電圧・周波数、交流電圧許容変動、周波数許容変動を数値と単位付きで教えてください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "mitsubishi_inverter_fr_d800.pdf"
+      ],
+      "expected_page": {
+        "mitsubishi_inverter_fr_d800.pdf": [
+          39
+        ]
+      },
+      "expected_key_facts": [
+        "3相380～480V 50/60Hz",
+        "323～528V 50/60Hz",
+        "±5%"
+      ]
+    },
+    {
+      "question_id": "D-02",
+      "category": "D",
+      "question": "RX-LS200の検出距離、応差、応答時間を数値と単位付きで教えてください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "panasonic_sensor_rx_ls200.pdf"
+      ],
+      "expected_page": {
+        "panasonic_sensor_rx_ls200.pdf": [
+          3
+        ]
+      },
+      "expected_key_facts": [
+        "50～200mm",
+        "動作距離の10%以下",
+        "1ms以下"
+      ]
+    },
+    {
+      "question_id": "D-03",
+      "category": "D",
+      "question": "PATLITE LR7ブザーユニットの4種類のブザーパターンと周波数、LR7の代表音圧を教えてください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "patlite_indicator_lr7_buzzer.pdf"
+      ],
+      "expected_page": {
+        "patlite_indicator_lr7_buzzer.pdf": [
+          1
+        ]
+      },
+      "expected_key_facts": [
+        "Rapid intermittent beep 3378Hz",
+        "Continuous beep 3378Hz",
+        "Rapid Hi-Lo 2016Hz・3012Hz",
+        "Sweep 1000～4032Hz",
+        "LR7 90dB"
+      ]
+    },
+    {
+      "question_id": "D-04",
+      "category": "D",
+      "question": "BN-W／BNH-Wシリーズ端子台の一般定格として、耐電圧と絶縁抵抗を教えてください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "idec_terminal_bn_bnh.pdf"
+      ],
+      "expected_page": {
+        "idec_terminal_bn_bnh.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "2500V AC・1分間",
+        "100MΩ以上"
+      ]
+    },
+    {
+      "question_id": "E-01",
+      "category": "E",
+      "question": "三菱電機MR-J5サーボアンプに対応するエンコーダ分解能は何bitですか。",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "E-02",
+      "category": "E",
+      "question": "KEYENCE IV4-G120の電源電圧と消費電流は何ですか。",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "E-03",
+      "category": "E",
+      "question": "日東工業BF12-23-1Cキャビネットの塗装色と保護等級は何ですか。",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "E-04",
+      "category": "E",
+      "question": "S8VK-G06024のEtherNet/IP通信速度は何Mbpsですか。",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "E-05",
+      "category": "E",
+      "question": "RX-LS200が対応するBluetooth規格と通信距離を教えてください。",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    }
+  ]
+}

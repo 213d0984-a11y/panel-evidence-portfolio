@@ -1,0 +1,129 @@
+{
+  "original_dataset_sha256": "3e1af0b526014b62f04c5b72de0079d49bdf8a92b99df9aa8ffd6c36cb912f24",
+  "note": "Authored questions and factual references; manufacturer text and PDFs excluded. Physical PDF page numbers.",
+  "sources": [
+    {
+      "file_name": "finder_38.pdf",
+      "manufacturer": "Finder",
+      "source_url": "https://cdn.findernet.com/app/uploads/S38EN.pdf",
+      "pages": 20,
+      "sha256": "3e53d56c56bd127e8da9e206e1ba4b97fd6f8145a5ac5ff75eb93dcdf89c100c"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "R-01",
+      "category": "answerable/model-number",
+      "question": "型式38.51の保護等級は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "finder_38.pdf"
+      ],
+      "expected_page": {
+        "finder_38.pdf": [
+          5
+        ]
+      },
+      "expected_key_facts": [
+        "IP 20"
+      ]
+    },
+    {
+      "question_id": "R-02",
+      "category": "answerable/numeric/conditional",
+      "question": "型式38.51の使用周囲温度範囲とコイル電圧による条件は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "finder_38.pdf"
+      ],
+      "expected_page": {
+        "finder_38.pdf": [
+          5
+        ]
+      },
+      "expected_key_facts": [
+        "40",
+        "70",
+        "55"
+      ]
+    },
+    {
+      "question_id": "R-03",
+      "category": "answerable/numeric/conditional",
+      "question": "型式38.51の開放接点間の耐電圧は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "finder_38.pdf"
+      ],
+      "expected_page": {
+        "finder_38.pdf": [
+          5
+        ]
+      },
+      "expected_key_facts": [
+        "1000"
+      ]
+    },
+    {
+      "question_id": "R-04",
+      "category": "answerable/numeric/conditional",
+      "question": "型式38.81の入力出力間の耐電圧は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "finder_38.pdf"
+      ],
+      "expected_page": {
+        "finder_38.pdf": [
+          6
+        ]
+      },
+      "expected_key_facts": [
+        "2500"
+      ]
+    },
+    {
+      "question_id": "R-05",
+      "category": "answerable/model-number",
+      "question": "型式38.31の保護等級は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "finder_38.pdf"
+      ],
+      "expected_page": {
+        "finder_38.pdf": [
+          9
+        ]
+      },
+      "expected_key_facts": [
+        "IP 20"
+      ]
+    },
+    {
+      "question_id": "R-06",
+      "category": "unanswerable/model-number",
+      "question": "型式38.9999の保護等級は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "R-07",
+      "category": "unanswerable",
+      "question": "型式38.51のBluetooth通信速度は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "R-08",
+      "category": "unanswerable",
+      "question": "型式38.51の光学解像度は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    }
+  ]
+}

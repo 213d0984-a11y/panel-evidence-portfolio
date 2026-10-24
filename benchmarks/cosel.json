@@ -1,0 +1,152 @@
+{
+  "original_dataset_sha256": "b0d9583d55e83366f0d8e8e5fc666d7f20cea0f736cea12c1e7a9b89ce7cc0c5",
+  "note": "Authored questions and factual references; manufacturer text and PDFs excluded. Physical PDF page numbers.",
+  "sources": [
+    {
+      "file_name": "cosel_pba_pbw.pdf",
+      "manufacturer": "COSEL",
+      "source_url": "https://www.cosel.com/tool/tag/pdf/SFE_PBA-PBW.pdf",
+      "pages": 35,
+      "sha256": "06f712b60cf2a048dcdf03549bb61a0e1dec8b5dbccfe197e21792f7b78875dc"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "U-01",
+      "category": "answerable/numeric/conditional",
+      "question": "PBA100F-24の入力電圧範囲は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "cosel_pba_pbw.pdf"
+      ],
+      "expected_page": {
+        "cosel_pba_pbw.pdf": [
+          12
+        ]
+      },
+      "expected_key_facts": [
+        "85",
+        "264",
+        "120",
+        "370"
+      ]
+    },
+    {
+      "question_id": "U-02",
+      "category": "answerable/model-number/numeric",
+      "question": "PBA100F-24の定格出力電流は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "cosel_pba_pbw.pdf"
+      ],
+      "expected_page": {
+        "cosel_pba_pbw.pdf": [
+          12
+        ]
+      },
+      "expected_key_facts": [
+        "4.5"
+      ]
+    },
+    {
+      "question_id": "U-03",
+      "category": "answerable/model-number/comparison",
+      "question": "PBA100F-24とPBA100F-48の出力電流を比較してください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "cosel_pba_pbw.pdf"
+      ],
+      "expected_page": {
+        "cosel_pba_pbw.pdf": [
+          12
+        ]
+      },
+      "expected_key_facts": [
+        "4.5",
+        "2.1"
+      ]
+    },
+    {
+      "question_id": "U-04",
+      "category": "answerable/numeric",
+      "question": "PBA100F-24の入力周波数範囲は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "cosel_pba_pbw.pdf"
+      ],
+      "expected_page": {
+        "cosel_pba_pbw.pdf": [
+          12
+        ]
+      },
+      "expected_key_facts": [
+        "47",
+        "63"
+      ]
+    },
+    {
+      "question_id": "U-05",
+      "category": "answerable/numeric/conditional",
+      "question": "PBA100F-24の動作温度範囲とディレーティングの条件は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "cosel_pba_pbw.pdf"
+      ],
+      "expected_page": {
+        "cosel_pba_pbw.pdf": [
+          12
+        ]
+      },
+      "expected_key_facts": [
+        "10",
+        "71",
+        "Derating"
+      ]
+    },
+    {
+      "question_id": "U-06",
+      "category": "answerable/numeric/conditional",
+      "question": "PBA100F-24の0～50℃時と−10～0℃時のリップル上限は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "cosel_pba_pbw.pdf"
+      ],
+      "expected_page": {
+        "cosel_pba_pbw.pdf": [
+          12
+        ]
+      },
+      "expected_key_facts": [
+        "120",
+        "160"
+      ]
+    },
+    {
+      "question_id": "U-07",
+      "category": "unanswerable/model-number",
+      "question": "PBA999F-24の出力電流は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "U-08",
+      "category": "unanswerable",
+      "question": "PBA100F-24のModbus通信速度は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "U-09",
+      "category": "unanswerable",
+      "question": "PBA100F-24のBluetooth通信距離は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "version": "0.5.1",
+  "baseline_commit": "d6de6a46751a18d5538268234cc66bea27efaf26",
+  "tests": {
+    "tests": 164,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "fixed28_before": {
+    "cases": 28,
+    "answerability_accuracy": 0.9642857142857143,
+    "strict_pass_rate": 0.9285714285714286,
+    "document_retrieval_recall": 1.0,
+    "page_retrieval_recall": 0.9782608695652174,
+    "citation_recall": 0.9565217391304348,
+    "citation_page_recall": 0.9130434782608695,
+    "unanswerable_refusal_rate": 1.0,
+    "answerable_false_refusal_rate": 0.043478260869565216
+  },
+  "fixed28_after": {
+    "cases": 28,
+    "answerability_accuracy": 0.9642857142857143,
+    "strict_pass_rate": 0.9285714285714286,
+    "document_retrieval_recall": 1.0,
+    "page_retrieval_recall": 0.9782608695652174,
+    "citation_recall": 0.9565217391304348,
+    "citation_page_recall": 0.9130434782608695,
+    "unanswerable_refusal_rate": 1.0,
+    "answerable_false_refusal_rate": 0.043478260869565216,
+    "complete_bound_value_presentation_rate": 0.13043478260869565
+  },
+  "fixed28_worsened": [],
+  "hdr60_first_pass": {
+    "cases": 8,
+    "answerability_accuracy": 0.75,
+    "strict_pass_rate": 0.75,
+    "document_retrieval_recall": 1.0,
+    "page_retrieval_recall": 1.0,
+    "citation_recall": 0.6666666666666666,
+    "citation_page_recall": 0.6666666666666666,
+    "unanswerable_refusal_rate": 1.0,
+    "answerable_false_refusal_rate": 0.3333333333333333
+  },
+  "hdr60_initial_direct_answers": "0/6, independently audited",
+  "regressions": {
+    "hdr60": {
+      "cases": 8,
+      "answerability_accuracy": 1.0,
+      "strict_pass_rate": 1.0,
+      "document_retrieval_recall": 1.0,
+      "page_retrieval_recall": 1.0,
+      "citation_recall": 1.0,
+      "citation_page_recall": 1.0,
+      "unanswerable_refusal_rate": 1.0,
+      "answerable_false_refusal_rate": 0.0,
+      "complete_bound_value_presentation_rate": 1.0
+    },
+    "ndr": {
+      "cases": 10,
+      "answerability_accuracy": 1.0,
+      "strict_pass_rate": 1.0,
+      "document_retrieval_recall": 1.0,
+      "page_retrieval_recall": 1.0,
+      "citation_recall": 1.0,
+      "citation_page_recall": 1.0,
+      "unanswerable_refusal_rate": 1.0,
+      "answerable_false_refusal_rate": 0.0,
+      "complete_bound_value_presentation_rate": 0.3333333333333333
+    },
+    "puls": {
+      "cases": 12,
+      "answerability_accuracy": 1.0,
+      "strict_pass_rate": 1.0,
+      "document_retrieval_recall": 1.0,
+      "page_retrieval_recall": 1.0,
+      "citation_recall": 1.0,
+      "citation_page_recall": 1.0,
+      "unanswerable_refusal_rate": 1.0,
+      "answerable_false_refusal_rate": 0.0,
+      "complete_bound_value_presentation_rate": 0.0
+    },
+    "relay": {
+      "cases": 8,
+      "answerability_accuracy": 1.0,
+      "strict_pass_rate": 1.0,
+      "document_retrieval_recall": 1.0,
+      "page_retrieval_recall": 1.0,
+      "citation_recall": 1.0,
+      "citation_page_recall": 1.0,
+      "unanswerable_refusal_rate": 1.0,
+      "answerable_false_refusal_rate": 0.0,
+      "complete_bound_value_presentation_rate": 0.0
+    },
+    "cosel": {
+      "cases": 9,
+      "answerability_accuracy": 0.8888888888888888,
+      "strict_pass_rate": 0.8888888888888888,
+      "document_retrieval_recall": 1.0,
+      "page_retrieval_recall": 1.0,
+      "citation_recall": 0.8333333333333334,
+      "citation_page_recall": 0.8333333333333334,
+      "unanswerable_refusal_rate": 1.0,
+      "answerable_false_refusal_rate": 0.16666666666666666,
+      "complete_bound_value_presentation_rate": 0.8333333333333334
+    },
+    "phoenix": {
+      "cases": 7,
+      "answerability_accuracy": 1.0,
+      "strict_pass_rate": 1.0,
+      "document_retrieval_recall": 1.0,
+      "page_retrieval_recall": 1.0,
+      "citation_recall": 1.0,
+      "citation_page_recall": 1.0,
+      "unanswerable_refusal_rate": 1.0,
+      "answerable_false_refusal_rate": 0.0,
+      "complete_bound_value_presentation_rate": 0.0
+    }
+  },
+  "self_authored_8": {
+    "cases": 8,
+    "pass_rate": 1.0,
+    "answerability_accuracy": 1.0,
+    "mean_source_recall": 1.0
+  },
+  "audit_inputs_unchanged": true,
+  "settings_unchanged": {
+    "embedding_model": "intfloat/multilingual-e5-small",
+    "min_relevance_score": 0.72,
+    "top_k": 5,
+    "chunk_size": 900,
+    "chunk_overlap": 150,
+    "llm_provider": "extractive",
+    "llm_model": "gpt-5.4-mini"
+  },
+  "core_sha256": {
+    "bootstrap.py": "6eddc4719f92f8c85c4e79e1e23d936ece25e2d5f07d654957cc75032c9730c7",
+    "catalog_tables.py": "54dfc57ed46054379034daf09ec3f7d0c51bff51923d917edd86222929a3fb69",
+    "chunking.py": "8c653ad38629ebfb44552db2d4b62df4296fa7ae855afcdc6cfffb6e278cd90a",
+    "config.py": "0b6288824b761cb908f44a3ba3d412a3285a51cf51b92e9534167f1d1b50cf33",
+    "contact_tables.py": "df4cc5ad43fbcf19c18379a5ec89a809f85c4037cef1130e33962ebffe406b1a",
+    "embeddings.py": "0469bebcf94ed221b7ef1bd46268caedd9469c4c7b08bd3350b5d89f527a21a7",
+    "evaluation.py": "5e544a99464ba5a9e717659ff1f27d853f1c64e54fb95b8742e0368b8a8f19e1",
+    "evidence.py": "eb0113f0e18b18a2eba729343e5980f54fb8673d7eb6f6f04954e07b50651edf",
+    "lexical.py": "1551e2c4f91a108304ffe8353897472e289d54740a421de1fa7ba7e17281d10e",
+    "llm.py": "76afd2373290f7643ff48eb693fd432eddbc250e21de0e42dc6f0178c3b63533",
+    "matrix_binding.py": "4f32115165468ee8db8c4ef68ad899a00aaae3c983b7d32ffde2cbdff3895944",
+    "models.py": "552ea3869968fc4257b89bc212706544f2d8f734cdbef2cc480c9f2b9f8cb90d",
+    "pdf_loader.py": "9d64b50b68f9d292d6d4b4f2663c782a00820e4f557d8e6bc6fe83b3d4eb8f25",
+    "registry.py": "d977a5fa29993ec363d763dceddc30cef106059ca0fd7f135c93f07c02b52a08",
+    "retrieval.py": "d2213be56ae9c3b88ebc76de4918088ba396aa9c73a7037fc517038c8fe01b23",
+    "service.py": "6e5ca3c86c56c93ff313017bdd4fcdadde45d1b458c8a75e1a7cceb7beca1c7e",
+    "tables.py": "335971a226990c265226577217efff4a303d7952877d4b8304dd304e7f5b9f8b",
+    "table_context.py": "33e9b80fb72026282544664e5ea31237ab4dc56def237d45f73690c7f16d1ec8",
+    "vector_store.py": "5aac3dcb44569d0a5afadbcd12911a446fa331214263593df0aa34f6a78d8398",
+    "__init__.py": "78220fcf21e7097421d6cc0b07bfc8f81fa2c33a9ce05ceb025e93ba4c89927f"
+  },
+  "ui_sha256": "36c6b8129539b050aec3dde3949b1aaa810bf3f6930aa48725e95d80adf9c43d",
+  "semantic_note": "Presentation coverage is not numeric correctness. HDR-60 page 2 and PS5R-VB24 page 2 were separately reviewed against rendered originals; frozen 70C reference was not changed.",
+  "limitations": [
+    "HDR-60 is now regression material, not a new blind result.",
+    "Fixed positives have complete bound-value presentation for 3/23; other page excerpts are not direct numeric-answer successes.",
+    "No live external LLM, new API key, paid service, GitHub publication or clean-PC test."
+  ]
+}

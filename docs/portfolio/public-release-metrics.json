@@ -1,0 +1,98 @@
+{
+  "app_version": "0.5.2",
+  "evaluation_date": "2026-10-24",
+  "fixed28": {
+    "cases": 28,
+    "answerability_accuracy": 0.9642857142857143,
+    "strict_pass_rate": 0.9285714285714286,
+    "document_retrieval_recall": 1.0,
+    "page_retrieval_recall": 0.9782608695652174,
+    "citation_recall": 0.9565217391304348,
+    "citation_page_recall": 0.9130434782608695,
+    "unanswerable_refusal_rate": 1.0,
+    "answerable_false_refusal_rate": 0.043478260869565216,
+    "complete_bound_value_presentation_rate": 0.13043478260869565
+  },
+  "fixed28_categories": {
+    "A": {
+      "count": 8,
+      "answerability_correct": 8,
+      "strict_pass": 7
+    },
+    "B": {
+      "count": 5,
+      "answerability_correct": 5,
+      "strict_pass": 5
+    },
+    "C": {
+      "count": 6,
+      "answerability_correct": 5,
+      "strict_pass": 5
+    },
+    "D": {
+      "count": 4,
+      "answerability_correct": 4,
+      "strict_pass": 4
+    },
+    "E": {
+      "count": 5,
+      "answerability_correct": 5,
+      "strict_pass": 5
+    }
+  },
+  "dataset_sha256": "9f46a2e7e44fde4996ee6faa7cbdab6dfcfa929eecfb9588fc5368dfb67033d5",
+  "fixed28_questions_changed": false,
+  "raw_run_sha256": "ba21002594eccc4560b015384c389f25d12dc7f33bed12cec2f846aa7d7ccb6d",
+  "tests": {
+    "tests": 167,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "publication_checks": {
+    "status": "local source verified; public visibility checked separately",
+    "date": "2026-10-25",
+    "environment": {
+      "python": "3.12.14",
+      "packages": {
+        "PyMuPDF": "1.28.2",
+        "streamlit": "1.66.1",
+        "qdrant-client": "1.20.0",
+        "sentence-transformers": "5.7.0",
+        "torch": "2.14.1",
+        "pytest": "9.1.1"
+      }
+    },
+    "independent_venv": true,
+    "existing_download_and_model_cache_used": true,
+    "pip_check": "No broken requirements found",
+    "tests": {
+      "tests": 167,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "tests_seconds": 8.258,
+    "self_authored8": {
+      "cases": 8,
+      "pass_rate": 1.0,
+      "answerability_accuracy": 1.0,
+      "mean_source_recall": 1.0
+    },
+    "ui_registration": {
+      "documents": 3,
+      "pages": 7
+    },
+    "ui_voltage_evidence_and_refusal_verified": true,
+    "frozen_inputs_and_backend_hashes_verified": 35,
+    "license": "AGPL-3.0-only; existing license approved by owner for public release",
+    "hosted_ci": "See the live GitHub Actions result; not inferred from local tests"
+  },
+  "scope": "API-free extractive mode; answerability and source/page agreement, not complete answer accuracy",
+  "limits": [
+    "Answerable false refusal remains for one alias/duty comparison.",
+    "Complete bound-value presentation is 3/23; page excerpts remain the primary output.",
+    "No new unseen first-pass experiment during documentation/publication work.",
+    "Live external LLM quality is unverified."
+  ]
+}

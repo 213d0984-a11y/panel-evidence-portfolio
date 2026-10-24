@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panel-doc-rag"
+version = "0.5.2"
+description = "制御盤・電気設計者向け 技術文書RAG検索支援アプリ"
+readme = "README.md"
+license = "AGPL-3.0-only"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "openai>=2.0,<3",
+  "PyMuPDF>=1.26,<2",
+  "python-dotenv>=1.1,<2",
+  "qdrant-client>=1.15,<2",
+  "sentence-transformers>=5.1,<6",
+  "streamlit>=1.63,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.4,<10",
+  "pytest-cov>=6.2,<8",
+]
+
+[project.scripts]
+panel-rag-evaluate = "panel_rag.evaluation:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+

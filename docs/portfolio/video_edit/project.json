@@ -1,0 +1,33 @@
+{
+  "title": "Panel Evidence — 技術資料の検索・根拠確認",
+  "app_version": "0.5.2",
+  "source": "docs/portfolio/demo.webm",
+  "source_sha256": "3f4d99ead9b295dc6ab18bcfe6c3819d43f4334c78019093464b5def8ce9bc7c",
+  "output": "docs/portfolio/demo_crowdworks_v052.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 25,
+  "audio": false,
+  "fonts": {"bold": "C:/Windows/Fonts/YuGothB.ttc", "regular": "C:/Windows/Fonts/YuGothM.ttc"},
+  "font_rights_reference": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+  "font_handling": "Render captions as pixels only. Font files are not embedded or distributed.",
+  "metric": {"version": "0.5.2", "fixed_cases": 28, "answerability_correct": 27, "note": "回答本文の完全正答率ではありません。"},
+  "scenes": [
+    {"id": "intro", "duration": 5, "caption": "技術PDFを横断検索。仕様を、根拠から確認。", "source_start": null},
+    {"id": "documents", "duration": 8, "source_start": 7, "crop": [350, 250, 1380, 1000], "crop_end": [365, 275, 1370, 1000], "caption": "複数の技術PDFを、まとめて検索対象に。登録済みの自作サンプル3冊・7ページを表示。"},
+    {"id": "question", "duration": 6, "source_start": 38, "crop": [365, 180, 1370, 795], "crop_end": [375, 195, 1365, 795], "caption": "型式と、確認したい仕様を質問。例：PS-24Nの電源電圧は？"},
+    {"id": "value", "duration": 7, "source_start": 15, "crop": [395, 532, 1120, 700], "crop_end": [408, 532, 1105, 700], "caption": "原文の電源電圧を確認。DC12～24V ±10%。"},
+    {"id": "evidence", "duration": 7, "source_start": 24, "crop": [385, 393, 1365, 715], "crop_end": [395, 402, 1340, 710], "caption": "値だけでなく、資料名・PDF物理ページ1・該当する原文も確認。"},
+    {"id": "refusal", "duration": 12, "source_start": 46, "crop": [370, 370, 1370, 843], "crop_end": [370, 370, 1360, 835], "caption": "根拠が不足する質問には、無理に答えない。登録資料からは確認できないと表示。"},
+    {"id": "validation", "duration": 9, "source_start": null, "caption": "v0.5.2・実メーカーPDF12冊・固定28問。回答可否の判定27/28。回答本文の完全正答率ではありません。"},
+    {"id": "outro", "duration": 6, "source_start": null, "caption": "技術資料の検索・根拠確認を、もっと効率的に。電気・製造業向け技術文書検索支援アプリ。複雑な表や条件、設計判断は技術者が原本で確認。"}
+  ],
+  "edit_notes": [
+    "Real recorded footage only, no upload or typing action synthesized.",
+    "Source clips play at 1x; source order changes for narrative editing.",
+    "Crops use uniform scaling with contain, never stretch.",
+    "Original dashboard segment 68–85 seconds is not used.",
+    "Value/filename/page callouts are editorial annotations, not fabricated app controls.",
+    "No music, narration, external LLM, app changes or publication."
+  ]
+}

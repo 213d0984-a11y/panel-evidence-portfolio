@@ -1,0 +1,134 @@
+{
+  "note": "Frozen before first execution. Original visual table verified. No source edits or result tuning. Conditions for rated output: 230 VAC, rated load, ambient 25 C unless otherwise stated.",
+  "sources": [
+    {
+      "file_name": "hdr60-independent.pdf",
+      "source_url": "https://www.meanwell.com/Upload/PDF/HDR-60/HDR-60-SPEC.PDF",
+      "sha256": "4af7626ce92441bb4806c4d3c47eef0345d1cc45091523ecca1cb70fae6ad80d"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "H1",
+      "category": "independent-first-pass",
+      "question": "HDR-60-24の定格出力電流は何Aですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "hdr60-independent.pdf"
+      ],
+      "expected_page": {
+        "hdr60-independent.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "2.5 A"
+      ]
+    },
+    {
+      "question_id": "H2",
+      "category": "independent-first-pass",
+      "question": "HDR-60-48の定格出力電流は何Aですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "hdr60-independent.pdf"
+      ],
+      "expected_page": {
+        "hdr60-independent.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "1.25 A"
+      ]
+    },
+    {
+      "question_id": "H3",
+      "category": "independent-first-pass",
+      "question": "HDR-60-12とHDR-60-24の定格出力電流を比較してください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "hdr60-independent.pdf"
+      ],
+      "expected_page": {
+        "hdr60-independent.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "HDR-60-12: 4.5 A",
+        "HDR-60-24: 2.5 A"
+      ]
+    },
+    {
+      "question_id": "H4",
+      "category": "independent-first-pass",
+      "question": "HDR-60-5の定格出力電力は何Wですか。",
+      "expected_answerable": true,
+      "expected_document": [
+        "hdr60-independent.pdf"
+      ],
+      "expected_page": {
+        "hdr60-independent.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "32.5 W"
+      ]
+    },
+    {
+      "question_id": "H5",
+      "category": "independent-first-pass",
+      "question": "HDR-60-24の使用周囲温度範囲と適用条件は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "hdr60-independent.pdf"
+      ],
+      "expected_page": {
+        "hdr60-independent.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "-30 to +70 degrees C",
+        "Refer to Derating Curve"
+      ]
+    },
+    {
+      "question_id": "H6",
+      "category": "independent-first-pass",
+      "question": "HDR-60-24の出力電圧調整範囲は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "hdr60-independent.pdf"
+      ],
+      "expected_page": {
+        "hdr60-independent.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "21.6 to 29 V"
+      ]
+    },
+    {
+      "question_id": "H7",
+      "category": "independent-first-pass",
+      "question": "HDR-60-99の定格出力電流は何Aですか。",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "H8",
+      "category": "independent-first-pass",
+      "question": "HDR-60-24のEthernet通信速度は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    }
+  ]
+}

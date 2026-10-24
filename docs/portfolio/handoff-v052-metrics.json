@@ -1,0 +1,186 @@
+{
+  "version": "0.5.2",
+  "date": "2026-10-24",
+  "backend_changes_from_v051": false,
+  "fixed28": {
+    "cases": 28,
+    "answerability_accuracy": 0.9642857142857143,
+    "strict_pass_rate": 0.9285714285714286,
+    "document_retrieval_recall": 1.0,
+    "page_retrieval_recall": 0.9782608695652174,
+    "citation_recall": 0.9565217391304348,
+    "citation_page_recall": 0.9130434782608695,
+    "unanswerable_refusal_rate": 1.0,
+    "answerable_false_refusal_rate": 0.043478260869565216,
+    "complete_bound_value_presentation_rate": 0.13043478260869565
+  },
+  "hdr60_regression": {
+    "cases": 8,
+    "answerability_accuracy": 1.0,
+    "strict_pass_rate": 1.0,
+    "document_retrieval_recall": 1.0,
+    "page_retrieval_recall": 1.0,
+    "citation_recall": 1.0,
+    "citation_page_recall": 1.0,
+    "unanswerable_refusal_rate": 1.0,
+    "answerable_false_refusal_rate": 0.0,
+    "complete_bound_value_presentation_rate": 1.0
+  },
+  "sample8": {
+    "cases": 8,
+    "pass_rate": 1.0,
+    "answerability_accuracy": 1.0,
+    "mean_source_recall": 1.0
+  },
+  "fixed28_categories": {
+    "A": {
+      "count": 8,
+      "answerability_correct": 8,
+      "strict_pass": 7
+    },
+    "B": {
+      "count": 5,
+      "answerability_correct": 5,
+      "strict_pass": 5
+    },
+    "C": {
+      "count": 6,
+      "answerability_correct": 5,
+      "strict_pass": 5
+    },
+    "D": {
+      "count": 4,
+      "answerability_correct": 4,
+      "strict_pass": 4
+    },
+    "E": {
+      "count": 5,
+      "answerability_correct": 5,
+      "strict_pass": 5
+    }
+  },
+  "fixed28_metric_changed_ids": [],
+  "fixed28_remaining_strict_failures": [
+    "A-02",
+    "C-03"
+  ],
+  "tests": [
+    {
+      "scope": "source_fresh_dependencies",
+      "passed": 167,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "scope": "source_fixed_dependencies",
+      "passed": 167,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "scope": "audit_copy_fresh_dependencies",
+      "passed": 167,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "scope": "distribution_with_installed_wheel_no_source_pythonpath",
+      "passed": 167,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "original164_test_ids_retained": true,
+  "ui_initial": {
+    "phase": "initial",
+    "documents": 3,
+    "pages": 7,
+    "voltage_evidence": true,
+    "source_page": true,
+    "download_sha256": "a6aec19c66f87a087869a2fc0a21c5101ad07f0b889caa6b48850918dffd5111",
+    "refusal": true,
+    "empty_question": true,
+    "broken_registry_unchanged": true,
+    "post_broken_query": true,
+    "external_api": false
+  },
+  "ui_restart": {
+    "phase": "restart",
+    "documents": 3,
+    "pages": 7,
+    "voltage_evidence": true,
+    "source_page": true,
+    "download_sha256": "a6aec19c66f87a087869a2fc0a21c5101ad07f0b889caa6b48850918dffd5111",
+    "refusal": true,
+    "empty_question": false,
+    "broken_registry_unchanged": false,
+    "post_broken_query": false,
+    "external_api": false
+  },
+  "lifecycle": {
+    "documents": 3,
+    "pages": 7,
+    "points": 7,
+    "registry_sha256": "9bbf40624a9fc2694332bf8b60ad9fa632810765c9caf05f658147ec45de3985",
+    "original_hashes_valid": true,
+    "no_orphan_uploads": true
+  },
+  "video_playback": {
+    "seeks": 0,
+    "errors": [],
+    "progress": [
+      0.147634,
+      4.401346,
+      8.656264,
+      12.906574,
+      17.15661,
+      21.174033,
+      25.175141,
+      29.423417,
+      33.423765,
+      37.673495,
+      41.926522,
+      46.169294,
+      50.421885,
+      54.675449,
+      58.942737,
+      63.191693,
+      67.457246,
+      71.710835,
+      75.982506,
+      80.228439,
+      84.476497
+    ],
+    "waiting": 0,
+    "duration": 85.44,
+    "currentTime": 85.44,
+    "ended": true,
+    "playbackRate": 1,
+    "videoWidth": 1440,
+    "videoHeight": 1000,
+    "wall_seconds": 85.58
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "packages": {
+      "PyMuPDF": "1.28.2",
+      "streamlit": "1.66.1",
+      "qdrant-client": "1.20.0",
+      "sentence-transformers": "5.7.0",
+      "transformers": "5.20.2",
+      "torch": "2.14.1",
+      "pytest": "9.1.1"
+    }
+  },
+  "new_venv": "system site packages disabled; existing Python and package/model caches; interrupted setup resumed after continuation; pip check passed",
+  "new_unseen_first_pass_this_version": false,
+  "external_llm_live_test": false,
+  "github_published": false,
+  "host_ci_executed": false,
+  "metric_note": "Strict pass is source/page/answerability agreement, not semantic accuracy. Typed presentation is coverage, not complete value/condition correctness. HDR-60 is regression, not unseen."
+}

@@ -1,0 +1,111 @@
+{
+  "original_dataset_sha256": "43721e39fdae4fc355dcd94a1351b55ad78f92978d95b650d2c10651d5d09673",
+  "note": "Authored questions and factual references; manufacturer text and PDFs excluded. Physical PDF page numbers.",
+  "sources": [
+    {
+      "file_name": "phoenix_power_quickguide2024.pdf",
+      "manufacturer": "Phoenix Contact",
+      "source_url": "https://assets.phoenixcontact.com/file/5db825bd-ca0c-4f92-ad13-df65c807d0d6/media/original",
+      "pages": 68,
+      "sha256": "e07a63c35c7d0ed5571d7537306879141f859697545f77845a4471c9e3b78321"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "P-01",
+      "category": "answerable/model-number/numeric",
+      "question": "STEP3-PS/1AC/24DC/2.5/PTの出力電流は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "phoenix_power_quickguide2024.pdf"
+      ],
+      "expected_page": {
+        "phoenix_power_quickguide2024.pdf": [
+          6
+        ]
+      },
+      "expected_key_facts": [
+        "2.5A"
+      ]
+    },
+    {
+      "question_id": "P-02",
+      "category": "answerable/model-number/numeric",
+      "question": "STEP3-PS/1AC/24DC/1.3/PTの出力電流は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "phoenix_power_quickguide2024.pdf"
+      ],
+      "expected_page": {
+        "phoenix_power_quickguide2024.pdf": [
+          6
+        ]
+      },
+      "expected_key_facts": [
+        "1.3A"
+      ]
+    },
+    {
+      "question_id": "P-03",
+      "category": "answerable/model-number/comparison",
+      "question": "STEP3-PS/1AC/24DC/2.5/PTとSTEP3-PS/1AC/24DC/1.3/PTの出力電流を比較してください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "phoenix_power_quickguide2024.pdf"
+      ],
+      "expected_page": {
+        "phoenix_power_quickguide2024.pdf": [
+          6
+        ]
+      },
+      "expected_key_facts": [
+        "2.5A",
+        "1.3A"
+      ]
+    },
+    {
+      "question_id": "P-04",
+      "category": "answerable/model-number/numeric",
+      "question": "QUINT4-PS/3AC/48DC/20の出力電流は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "phoenix_power_quickguide2024.pdf"
+      ],
+      "expected_page": {
+        "phoenix_power_quickguide2024.pdf": [
+          6
+        ]
+      },
+      "expected_key_facts": [
+        "20A"
+      ]
+    },
+    {
+      "question_id": "P-05",
+      "category": "unanswerable/model-number",
+      "question": "STEP3-PS/1AC/24DC/999/PTの出力電流は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "P-06",
+      "category": "unanswerable/cross-product",
+      "question": "STEP3-PS/1AC/24DC/2.5/PTのBluetooth通信速度は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "P-07",
+      "category": "unanswerable",
+      "question": "STEP3-PS/1AC/24DC/2.5/PTの光学解像度は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    }
+  ]
+}

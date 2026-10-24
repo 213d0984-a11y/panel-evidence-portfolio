@@ -1,0 +1,157 @@
+{
+  "original_dataset_sha256": "db91f88b877196d5c415780e9320bb0d30c32367e65ff79d2f5ecc020c5531e2",
+  "note": "Authored questions and factual references; manufacturer text and PDFs excluded. Physical PDF page numbers.",
+  "sources": [
+    {
+      "file_name": "meanwell_ndr120.pdf",
+      "manufacturer": "MEAN WELL",
+      "source_url": "https://www.meanwell.com/Upload/PDF/NDR-120/NDR-120-SPEC.PDF",
+      "pages": 4,
+      "sha256": "8ea2a476d9989a44e917afe910689f1d84c93aab311c86beb64d31cdb518ce8d"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "U-01",
+      "category": "answerable/numeric",
+      "question": "NDR-120-24の定格電流は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "meanwell_ndr120.pdf"
+      ],
+      "expected_page": {
+        "meanwell_ndr120.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "5A"
+      ]
+    },
+    {
+      "question_id": "U-02",
+      "category": "answerable/numeric",
+      "question": "NDR-120-24の周波数範囲は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "meanwell_ndr120.pdf"
+      ],
+      "expected_page": {
+        "meanwell_ndr120.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "47",
+        "63Hz"
+      ]
+    },
+    {
+      "question_id": "U-03",
+      "category": "answerable/numeric",
+      "question": "NDR-120-24の使用周囲湿度は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "meanwell_ndr120.pdf"
+      ],
+      "expected_page": {
+        "meanwell_ndr120.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "20",
+        "95%"
+      ]
+    },
+    {
+      "question_id": "U-04",
+      "category": "answerable/numeric",
+      "question": "NDR-120-24の出力電圧は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "meanwell_ndr120.pdf"
+      ],
+      "expected_page": {
+        "meanwell_ndr120.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "24V"
+      ]
+    },
+    {
+      "question_id": "U-05",
+      "category": "answerable/numeric/conditional",
+      "question": "NDR-120-24の使用周囲温度範囲は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "meanwell_ndr120.pdf"
+      ],
+      "expected_page": {
+        "meanwell_ndr120.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "-20",
+        "70"
+      ]
+    },
+    {
+      "question_id": "U-06",
+      "category": "answerable/model-number",
+      "question": "NDR-120-12とNDR-120-24の定格電流を比較してください。",
+      "expected_answerable": true,
+      "expected_document": [
+        "meanwell_ndr120.pdf"
+      ],
+      "expected_page": {
+        "meanwell_ndr120.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "10A",
+        "5A"
+      ]
+    },
+    {
+      "question_id": "U-07",
+      "category": "unanswerable/model-number",
+      "question": "NDR-999-24の出力電圧は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "U-08",
+      "category": "unanswerable",
+      "question": "NDR-120-24のBluetooth通信速度は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "U-09",
+      "category": "unanswerable",
+      "question": "NDR-120-24の光学解像度は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "U-10",
+      "category": "unanswerable",
+      "question": "NDR-120-24の接点定格は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    }
+  ]
+}

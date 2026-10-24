@@ -1,0 +1,190 @@
+{
+  "original_dataset_sha256": "5072c5e4ad9b614df1fc261c765deef9e58aff77ef41d399ac8e94ee1c54f515",
+  "note": "Authored questions and factual references; manufacturer text and PDFs excluded. Physical PDF page numbers.",
+  "sources": [
+    {
+      "file_name": "puls_cp5241_manual.pdf",
+      "manufacturer": "PULS",
+      "source_url": "https://products.pulspower.com/sg/mwdownloads/download/link/id/1561/",
+      "pages": 2,
+      "sha256": "5a63a01e1607a3fe05bdd0752c78135f503c0be746097c009d44d140a1bf1fe0"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "H-01",
+      "category": "answerable/numeric",
+      "question": "CP5.241の出力電圧は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "puls_cp5241_manual.pdf"
+      ],
+      "expected_page": {
+        "puls_cp5241_manual.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "24V"
+      ]
+    },
+    {
+      "question_id": "H-02",
+      "category": "answerable/numeric",
+      "question": "CP5.241の使用周囲温度範囲は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "puls_cp5241_manual.pdf"
+      ],
+      "expected_page": {
+        "puls_cp5241_manual.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "-25",
+        "70"
+      ]
+    },
+    {
+      "question_id": "H-03",
+      "category": "answerable",
+      "question": "CP5.241の保護構造は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "puls_cp5241_manual.pdf"
+      ],
+      "expected_page": {
+        "puls_cp5241_manual.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "IP20"
+      ]
+    },
+    {
+      "question_id": "H-04",
+      "category": "answerable/numeric",
+      "question": "CP5.241の電源端子の適合電線サイズはAWGでいくつですか？",
+      "expected_answerable": true,
+      "expected_document": [
+        "puls_cp5241_manual.pdf"
+      ],
+      "expected_page": {
+        "puls_cp5241_manual.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "20-10"
+      ]
+    },
+    {
+      "question_id": "H-05",
+      "category": "answerable/numeric",
+      "question": "CP5.241の電源端子の締付トルクは？",
+      "expected_answerable": true,
+      "expected_document": [
+        "puls_cp5241_manual.pdf"
+      ],
+      "expected_page": {
+        "puls_cp5241_manual.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "1Nm"
+      ]
+    },
+    {
+      "question_id": "H-06",
+      "category": "answerable/numeric",
+      "question": "CP5.241の使用周囲湿度は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "puls_cp5241_manual.pdf"
+      ],
+      "expected_page": {
+        "puls_cp5241_manual.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "5%",
+        "95%"
+      ]
+    },
+    {
+      "question_id": "H-07",
+      "category": "answerable/numeric/conditional",
+      "question": "CP5.241の周囲温度60℃時の出力電流は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "puls_cp5241_manual.pdf"
+      ],
+      "expected_page": {
+        "puls_cp5241_manual.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "5.0",
+        "4.3A"
+      ]
+    },
+    {
+      "question_id": "H-08",
+      "category": "answerable/model-number",
+      "question": "CP5.241-C1の出力電圧は？",
+      "expected_answerable": true,
+      "expected_document": [
+        "puls_cp5241_manual.pdf"
+      ],
+      "expected_page": {
+        "puls_cp5241_manual.pdf": [
+          2
+        ]
+      },
+      "expected_key_facts": [
+        "24V"
+      ]
+    },
+    {
+      "question_id": "H-09",
+      "category": "unanswerable/model-number",
+      "question": "CP99.999の出力電圧は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "H-10",
+      "category": "unanswerable",
+      "question": "CP5.241のBluetooth通信速度は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "H-11",
+      "category": "unanswerable",
+      "question": "CP5.241の光学解像度は？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    },
+    {
+      "question_id": "H-12",
+      "category": "unanswerable/wrong-component",
+      "question": "CP5.241のDINレール固定ねじの締付トルクは？",
+      "expected_answerable": false,
+      "expected_document": [],
+      "expected_page": {},
+      "expected_key_facts": []
+    }
+  ]
+}

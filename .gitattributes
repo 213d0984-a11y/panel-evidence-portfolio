@@ -1,0 +1,5 @@
+# Preserve the release manifest's exact bytes across Windows/Linux checkouts.
+* -text
+*.pdf binary
+*.png binary
+*.webm binary

@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "packages": {
+    "PyMuPDF": "1.28.2",
+    "streamlit": "1.63.0",
+    "qdrant-client": "1.19.0",
+    "sentence-transformers": "5.7.0",
+    "openai": "2.54.0",
+    "pytest": "9.1.1",
+    "torch": "2.14.0"
+  }
+}

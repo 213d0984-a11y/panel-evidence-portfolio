@@ -1,0 +1,13 @@
+{
+  "measured_at": "2026-09-04",
+  "dataset": "sample_data/evaluation.json",
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "answer_provider": "extractive",
+  "min_relevance_score": 0.72,
+  "cases": 8,
+  "pass_rate": 1.0,
+  "answerability_accuracy": 1.0,
+  "mean_source_recall": 1.0,
+  "note": "自作ダミー資料3件に対する小規模な基準値であり、実資料への一般性能を保証しない。"
+}
+

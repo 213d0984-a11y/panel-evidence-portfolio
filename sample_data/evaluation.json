@@ -1,0 +1,70 @@
+[
+  {
+    "id": "A-01",
+    "question": "盤の主電源条件は？",
+    "expected_answerable": true,
+    "expected_sources": ["control_panel_spec.pdf"],
+    "expected_terms": ["AC200V", "50/60Hz"],
+    "categories": ["answerable", "single-document", "numeric"]
+  },
+  {
+    "id": "A-02",
+    "question": "DC24V電源の型式と定格出力電流は？",
+    "expected_answerable": true,
+    "expected_sources": ["control_panel_spec.pdf"],
+    "expected_terms": ["PWR-240-24", "10A"],
+    "categories": ["answerable", "single-document", "numeric", "model-number"]
+  },
+  {
+    "id": "A-03",
+    "question": "制御盤のDC24V電源定格と、PS-24Nの電源電圧範囲を併記して。",
+    "expected_answerable": true,
+    "expected_sources": [
+      "control_panel_spec.pdf",
+      "photoelectric_sensor_manual.pdf"
+    ],
+    "expected_terms": ["DC24V", "DC12", "24V"],
+    "categories": ["answerable", "multi-document", "numeric", "model-number"]
+  },
+  {
+    "id": "A-04",
+    "question": "使用周囲温度と湿度の条件は？",
+    "expected_answerable": true,
+    "expected_sources": ["control_panel_spec.pdf"],
+    "expected_terms": ["40", "85"],
+    "categories": ["answerable", "single-document", "numeric"]
+  },
+  {
+    "id": "A-05",
+    "question": "絶縁抵抗試験の試験電圧と合格基準は？",
+    "expected_answerable": true,
+    "expected_sources": ["inspection_procedure.pdf"],
+    "expected_terms": ["DC500V", "100MΩ"],
+    "categories": ["answerable", "single-document", "numeric"]
+  },
+  {
+    "id": "A-06",
+    "question": "型式ZX-900の定格電流は？",
+    "expected_answerable": false,
+    "expected_sources": [],
+    "expected_terms": [],
+    "categories": ["unanswerable", "model-number"]
+  },
+  {
+    "id": "A-07",
+    "question": "この盤の塗装色はマンセル何番？",
+    "expected_answerable": false,
+    "expected_sources": [],
+    "expected_terms": [],
+    "categories": ["unanswerable", "single-document"]
+  },
+  {
+    "id": "A-08",
+    "question": "UL508Aの認証番号を教えて。",
+    "expected_answerable": false,
+    "expected_sources": [],
+    "expected_terms": [],
+    "categories": ["unanswerable", "model-number"]
+  }
+]
+
